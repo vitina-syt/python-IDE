@@ -47,3 +47,7 @@ This project is a Vite-based TypeScript web application that allows users to run
 - Implement IndexedDB storage
 - Build code editor and output components
 
+## remember
+- cd backend 
+- python3 -m venv venv 
+- source venv/bin/activate 
