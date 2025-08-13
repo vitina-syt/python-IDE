@@ -3,8 +3,7 @@ from pydantic import BaseModel
 from transformers import pipeline
 
 app = FastAPI()
-api_key="sk-de6204ecb187412fbbeadf859c6faf5d"
-qa_pipeline = pipeline("question-answering", model="Qwen/Qwen-Image")
+qa_pipeline = pipeline("question-answering", model="distilbert-base-cased-distilled-squad")
 
 class QARequest(BaseModel):
     question: str
