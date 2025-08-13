@@ -26,3 +26,4 @@ dist-ssr
 # Python virtual environment
 venv/
 backend/venv/
+.env
